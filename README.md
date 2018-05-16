@@ -27,6 +27,6 @@ There is a small sample app (**oled.cpp**) that shows how to instantiate and use
 
 ***./oled -ww -t "A line of text" -t "A second line of text" -t "A long line of text that will wrap to the next line" - "Keep adding -t and text (in quotes) to the command line to see it scroll"***
 
-"-c" - Clear display
-"-ww" - Set Word Wrap
-"-t" - Some text
+* "-c" - Clear display
+* "-ww" - Set Word Wrap
+* "-t" - Some text
