@@ -1,9 +1,11 @@
-# Raspberry Pi - SSD1306 128x64 OLED Display - C++ Code
+# Orange Pi Zero 2 Plus - SSD1306 128x64 OLED Display - C++ Code
 
 ## Background
 This project was an exercise in reinventing the wheel for the purpose of learning...
 There are already a number of libraries that allow you to write to these little 128x64 OLED displays, but that would be too easy (and wouldn't teach us anything), so I decided to write my own.
 The article that accompanies this code can be found at http://pistarter.com/2016/ssd1306-128x64-bit-oled-display-interfacing-with-raspberry-pi/
+
+This is fork of https://github.com/kjhughes097/pi-ssd1306-oled
 
 ## Features
 The current version allows you to instantiate a 'SSD1306' object and use that to send text to the display.Here's a few of the other features:
@@ -24,3 +26,7 @@ Use of the code is as simple as including three files in your project (**charmap
 There is a small sample app (**oled.cpp**) that shows how to instantiate and use the SSD1306 class. When compiled you can use this app to test the device out from the command line:
 
 ***./oled -ww -t "A line of text" -t "A second line of text" -t "A long line of text that will wrap to the next line" - "Keep adding -t and text (in quotes) to the command line to see it scroll"***
+
+"-c" - Clear display
+"-ww" - Set Word Wrap
+"-t" - Some text
