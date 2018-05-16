@@ -179,7 +179,7 @@
     }
 
     void SSD1306::writeI2C(unsigned char* data, int bytes) {
-        char *deviceName = (char*)"/dev/i2c-1";
+        char *deviceName = (char*)"/dev/i2c-0";
 	    if ((i2cHandle = open(deviceName, O_RDWR)) < 0)
 	    {
             printf("error opening I2C\n");
@@ -200,7 +200,7 @@
             }
             
             // Close the i2c device bus
-            char *deviceName = (char*)"dev/i2c-1";
+            char *deviceName = (char*)"dev/i2c-0";
             close(*deviceName);
     	}
 
