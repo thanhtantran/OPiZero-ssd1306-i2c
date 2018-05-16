@@ -15,7 +15,7 @@ void writeI2C(unsigned char* data, int bytes) {
     int i2cAddress = 0x3C;
     int i2cHandle;
 
-    char *deviceName = (char*)"/dev/i2c-1";
+    char *deviceName = (char*)"/dev/i2c-0";
     if ((i2cHandle = open(deviceName, O_RDWR)) < 0) {
         printf("error opening I2C\n");
     }
