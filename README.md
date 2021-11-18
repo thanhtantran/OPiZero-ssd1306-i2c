@@ -1,4 +1,10 @@
-# Orange Pi Zero 2 Plus - SSD1306 128x64 OLED Display - C++ Code
+I have tested with the original 28x64 OLED Display from Orange Pi https://www.aliexpress.com/item/1005002035106789.html
+
+IT works for all model of board. Bellow is original Readme
+
+======================================
+
+# Orange Pi - SSD1306 128x64 OLED Display - C++ Code
 
 ## Background
 This project was an exercise in reinventing the wheel for the purpose of learning...
